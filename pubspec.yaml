@@ -177,6 +177,8 @@ dependencies:
       ref: main
 
 dependency_overrides:
+  # TODO: remove
+  # https://github.com/canonical/upower.dart/pull/22
   dbus: ^0.8.0
   flutter_inappwebview_android:
     git:
